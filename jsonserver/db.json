@@ -1,0 +1,932 @@
+{
+  "me": {
+    "firstName": "Jogn",
+    "lastName": "Doe",
+    "role": "admin",
+    "operationClaims": [
+      {
+        "id": 1,
+        "name": "admin",
+        "description": "administrator"
+      }
+    ]
+  },
+  "login": {
+    "userData": {
+      "email": "admin@admin.com",
+      "FirstName": "John",
+      "lastName": "Doe",
+      "role": "admin",
+      "token": "accesstoken",
+      "operationClaims": [
+        {
+          "id": 1,
+          "name": "admin",
+          "description": "administrator"
+        }
+      ]
+    },
+    "token": "your_generated_token_here",
+    "expiration": "2023-12-31T23:59:59Z"
+  },
+  "campaignsOverview": [
+    {
+      "name": "Campaign 1",
+      "description": "Description for Campaign 1",
+      "targetAmount": "10000",
+      "totalAmount": "5000",
+      "progress": "50",
+      "flyer": "1.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Campaign 2",
+      "description": "Description for Campaign 2",
+      "targetAmount": "20000",
+      "totalAmount": "8000",
+      "progress": "40",
+      "flyer": "2.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Campaign 3",
+      "description": "Description for Campaign 3",
+      "targetAmount": "15000",
+      "totalAmount": "12000",
+      "progress": "80",
+      "flyer": "3.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Campaign 4",
+      "description": "Description for Campaign 3",
+      "targetAmount": "15000",
+      "totalAmount": "12000",
+      "progress": "80",
+      "flyer": "4.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Campaign 5",
+      "description": "Description for Campaign 5",
+      "targetAmount": "15000",
+      "totalAmount": "12000",
+      "progress": "80",
+      "flyer": "5.jpg",
+      "isActive": true
+    },
+    {
+      "name": "Campaign 6",
+      "description": "Description for Campaign 6",
+      "targetAmount": "15000",
+      "totalAmount": "15000",
+      "progress": "100",
+      "flyer": "6.jpg",
+      "isActive": false
+    },
+    {
+      "name": "Campaign 7",
+      "description": "Description for Campaign 7",
+      "targetAmount": "15000",
+      "totalAmount": "15000",
+      "progress": "100",
+      "flyer": "7.jpg",
+      "isActive": false
+    }
+  ],
+  "stats": [
+    {
+      "name": "Campaigns",
+      "value": "28-5"
+    },
+    {
+      "name": "Companies",
+      "value": 7
+    },
+    {
+      "name": "Employees",
+      "value": 350
+    },
+    {
+      "name": "Total Amount",
+      "value": 546000
+    }
+  ],
+  "top-employees": [
+    {
+      "name": "Alice",
+      "surName": "Smith",
+      "nickName": "1002",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Bob",
+      "surName": "Johnson",
+      "nickName": "1001",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Charlie",
+      "surName": "Brown",
+      "nickName": "1003",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "David",
+      "surName": "Miller",
+      "nickName": "1004",
+      "totalAmount": "100540"
+    },
+    {
+      "name": "Eva",
+      "surName": "Taylor",
+      "nickName": "1005",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Frank",
+      "surName": "White",
+      "nickName": "1006",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Grace",
+      "surName": "Martin",
+      "nickName": "1007",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Henry",
+      "surName": "Clark",
+      "nickName": "1008",
+      "totalAmount": "100550"
+    },
+    {
+      "name": "Ivy",
+      "surName": "Williams",
+      "nickName": "1009",
+      "totalAmount": "100550"
+    }
+  ],
+  "top-companies": [
+    {
+      "logo": "Garanti.png",
+      "name": "Garanti Bankasi",
+      "totalAmount": "500"
+    },
+    {
+      "logo": "VakifBank.png",
+      "name": "Vakif Bank",
+      "totalAmount": "400"
+    },
+    {
+      "logo": "YapiKredi.png",
+      "name": "Yapi Kredi",
+      "totalAmount": "300"
+    },
+    {
+      "logo": "Turkcell-logo.jpg",
+      "name": "Yapi Kredi",
+      "totalAmount": "200"
+    },
+    {
+      "logo": "StarAliance.png",
+      "name": "Star Aliance",
+      "totalAmount": "200"
+    },
+    {
+      "logo": "CicekSepeti.png",
+      "name": "Cicek Sepeti",
+      "totalAmount": "100"
+    }
+  ],
+  "company-deposits": [
+    {
+      "companyId": 1,
+      "companyName": "Garanti Bankasi",
+      "balance": "500"
+    },
+    {
+      "companyId": 2,
+      "companyName": "Vakif Bank",
+      "balance": "400"
+    },
+    {
+      "companyId": 3,
+      "companyName": "Yapi Kredi",
+      "balance": "300"
+    },
+    {
+      "companyId": 4,
+      "companyName": "Yapi Kredi",
+      "balacne": "200"
+    },
+    {
+      "companyId": 5,
+      "companyName": "Star Aliance",
+      "balance": "200"
+    },
+    {
+      "companyId": 6,
+      "companyName": "Cicek Sepeti",
+      "balance": "100"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "nickName": "JD",
+      "companyId": 1,
+      "nationality": 1,
+      "identityNumber": "123456789",
+      "email": "john.doe@example.com",
+      "dateOfBirth": "1990-01-01",
+      "phone1": "555-1234",
+      "phone2": "555-5678",
+      "address": "123 Main St, City",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isActive": true
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "nickName": "JS",
+      "companyId": "",
+      "nationality": 41,
+      "identityNumber": "987654321",
+      "dateOfBirth": "1915-11-04T22:00:00.000Z",
+      "phone1": "555-9876",
+      "phone2": "555-4321",
+      "email": "jane.smith@example.com",
+      "address": "456 Oak St, Town",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "isActive": false,
+      "company": "Fineksus",
+      "id": 2
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "nickName": "BJ",
+      "companyId": 2,
+      "nationality": 3,
+      "identityNumber": "555555555",
+      "dateOfBirth": "1908-07-17T22:03:04.000Z",
+      "phone1": "555-1111",
+      "phone2": "",
+      "email": "bob.johnson@example.com",
+      "address": "789 Pine St, Village",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "isActive": true,
+      "company": "Vestel",
+      "id": 3
+    },
+    {
+      "firstName": "Bilal",
+      "lastName": "Çetiner",
+      "nickName": "bll",
+      "companyId": 15,
+      "nationality": 41,
+      "identityNumber": "14422200999",
+      "dateOfBirth": "1920-06-08T21:00:00.000Z",
+      "phone1": "1111",
+      "phone2": "",
+      "email": "bcetiner@msn.com",
+      "address": "",
+      "description": "",
+      "isActive": true,
+      "company": 3,
+      "id": 4
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Summer Savings Bonanza",
+      "targetAmount": 50000,
+      "description": "Unleash the Power of Hope and Support.",
+      "htmlContent": "<p>Join us in making a positive impact!</p>",
+      "isActive": true
+    },
+    {
+      "name": "Global Reach Spectacular",
+      "targetAmount": "10000",
+      "description": "Extend Compassion to Communities Worldwide.",
+      "htmlContent": "<p>Together, let's make a difference!</p>",
+      "isActive": true,
+      "id": 2
+    },
+    {
+      "name": "Aid for a Better Tomorrow",
+      "targetAmount": 30000,
+      "description": "Provide Aid and Support to Those Facing Challenges.",
+      "htmlContent": "<p>Your contribution makes a meaningful impact.</p>",
+      "isActive": true,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Helping Hands for a Brighter Future",
+      "targetAmount": 100000,
+      "description": "Extend Helping Hands for a Better World.",
+      "htmlContent": "<p>Join us in building a brighter future!</p>",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Global Relief Endeavor",
+      "targetAmount": 120000,
+      "description": "Provide Relief to Communities in Crisis Worldwide.",
+      "htmlContent": "<p>Your support makes a global impact.</p>",
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "Unity for Change Expedition",
+      "targetAmount": 80000,
+      "description": "Unite for Positive Change in Society.",
+      "htmlContent": "<p>Be a part of the change we want to see.</p>",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Generosity Unleashed Rally",
+      "targetAmount": 60000,
+      "description": "Unleash the Power of Generosity for a Better Tomorrow.",
+      "htmlContent": "<p>Your generosity changes lives.</p>",
+      "isActive": true
+    },
+    {
+      "name": "Brighter Futures Crusade",
+      "targetAmount": "",
+      "description": "Work Together for Brighter and Better Futures.",
+      "htmlContent": "<p>Join us in making dreams come true.</p>",
+      "isActive": true,
+      "targetAmount": 90000,
+      "id": 8
+    },
+    {
+      "name": "Community Cares Endeavor",
+      "targetAmount": "10",
+      "description": "Care for Our Communities, One Project at a Time.",
+      "htmlContent": "<p>Together, we can make a positive impact.</p>",
+      "isActive": true,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "name": "Harmony in Action Initiative",
+      "targetAmount": 110000,
+      "description": "Create Harmony Through Positive Actions.",
+      "htmlContent": "<p>Your actions create a harmonious world.</p>",
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "name": "Empowerment Drive Challenge",
+      "targetAmount": 95000,
+      "description": "Empower Individuals for a Better Tomorrow.",
+      "htmlContent": "<p>Empowerment begins with your support.</p>",
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "name": "Global Unity Campaign Expedition",
+      "targetAmount": 85000,
+      "description": "Foster Global Unity and Cooperation.",
+      "htmlContent": "<p>Join us in creating a united world.</p>",
+      "isActive": false
+    },
+    {
+      "id": 13,
+      "name": "Shine Bright Movement",
+      "targetAmount": 60000,
+      "description": "Help Individuals Shine in Their Communities.",
+      "htmlContent": "<p>Your support helps others shine bright.</p>",
+      "isActive": true
+    },
+    {
+      "name": "Dreams Come True Challenge",
+      "targetAmount": "100",
+      "description": "Turn Dreams Into Reality for Those in Need.",
+      "htmlContent": "<p>Together, we make dreams come true.</p>",
+      "isActive": false,
+      "id": 14
+    },
+    {
+      "id": 15,
+      "name": "Future Leaders Initiative",
+      "targetAmount": 100000,
+      "description": "Support and Nurture Future Leaders.",
+      "htmlContent": "<p>Your support shapes the leaders of tomorrow.</p>",
+      "isActive": true
+    },
+    {
+      "id": 16,
+      "name": "Healing Hearts Expedition",
+      "targetAmount": 70000,
+      "description": "Heal Hearts and Bring Comfort to Those in Pain.",
+      "htmlContent": "<p>Your contribution brings healing and comfort.</p>",
+      "isActive": true
+    },
+    {
+      "id": 17,
+      "name": "Sunshine for Seniors Initiative",
+      "targetAmount": 80000,
+      "description": "Spread Sunshine and Joy to Senior Citizens.",
+      "htmlContent": "<p>Your support brings sunshine into the lives of seniors.</p>",
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "name": "Future Scholars Drive",
+      "targetAmount": 110000,
+      "description": "Support Education for Future Scholars.",
+      "htmlContent": "<p>Your contribution supports the scholars of tomorrow.</p>",
+      "isActive": false
+    },
+    {
+      "id": 19,
+      "name": "Kindness in Action Campaign",
+      "targetAmount": 90000,
+      "description": "Practice Kindness for a More Compassionate World.",
+      "htmlContent": "<p>Join us in spreading kindness and compassion.</p>",
+      "isActive": true
+    },
+    {
+      "id": 20,
+      "name": "Sustainable Living Movement",
+      "targetAmount": 95000,
+      "description": "Promote Sustainable Living Practices for a Better Environment.",
+      "htmlContent": "<p>Your support promotes sustainable living.</p>",
+      "isActive": false
+    },
+    {
+      "name": "Test Campaign",
+      "description": "Description",
+      "htmlContent": "<p>sdasdasdasdaasdasd</p>",
+      "isActive": true,
+      "id": 21
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "ABC Corporation",
+      "description": "A leading company in innovative solutions.",
+      "isActive": false
+    },
+    {
+      "id": 2,
+      "name": "XYZ Enterprises",
+      "description": "Providing cutting-edge services for businesses.",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Global Innovations Ltd.",
+      "description": "Driving global innovations for a brighter future.",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Tech Solutions Inc.",
+      "description": "Delivering technology solutions to empower businesses.",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Green Earth Technologies",
+      "description": "Leading the way in environmentally friendly solutions.",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Healthcare Dynamics",
+      "description": "Dedicated to advancing healthcare through innovation.",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Future Builders Group",
+      "description": "Building a better future with sustainable practices.",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Eco-friendly Solutions Ltd.",
+      "description": "Providing eco-friendly solutions for a sustainable world.",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "Infinite Innovations Co.",
+      "description": "Infinite possibilities through innovative solutions.",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "name": "Unity Enterprises",
+      "description": "Unity for success, growth, and positive impact.",
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "name": "Bright Future Industries",
+      "description": "Creating a bright future through industry leadership.",
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "name": "Visionary Ventures Ltd.",
+      "description": "Venturing into the future with visionary ideas.",
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "name": "Global Harmony Solutions",
+      "description": "Harmony in solutions for a global impact.",
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "name": "Positive Impact Innovations",
+      "description": "Innovating for a positive impact on society.",
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "name": "Sustainable Future Group",
+      "description": "Sustainability for a brighter and greener future.",
+      "isActive": true
+    },
+    {
+      "id": 16,
+      "name": "Community Builders Co.",
+      "description": "Building strong communities for a better world.",
+      "isActive": true
+    },
+    {
+      "id": 17,
+      "name": "Future Leaders Enterprises",
+      "description": "Empowering future leaders for a successful tomorrow.",
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "name": "Inclusive Solutions Ltd.",
+      "description": "Inclusion and diversity for innovative solutions.",
+      "isActive": true
+    },
+    {
+      "id": 19,
+      "name": "Inspire Tech Innovations",
+      "description": "Inspiring through technological innovations.",
+      "isActive": true
+    },
+    {
+      "id": 20,
+      "name": "Humanity First Co.",
+      "description": "Putting humanity first in all endeavors.",
+      "isActive": true
+    },
+    {
+      "name": "Fineksus",
+      "description": "Fineksus",
+      "isActive": true,
+      "id": 21
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "code": "CA",
+      "name": "Canada",
+      "phone": "+1",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 2,
+      "code": "US",
+      "name": "United States",
+      "phone": "+1",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 3,
+      "code": "BS",
+      "name": "Bahamas",
+      "phone": "+1242",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 4,
+      "code": "BB",
+      "name": "Barbados",
+      "phone": "+1246",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 5,
+      "code": "AI",
+      "name": "Anguilla",
+      "phone": "+1264",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 6,
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "phone": "+1268",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 7,
+      "code": "VG",
+      "name": "Virgin Islands, British",
+      "phone": "+1284",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 8,
+      "code": "VI",
+      "name": "Virgin Islands, U.S.",
+      "phone": "+1340",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 9,
+      "code": "BM",
+      "name": "Bermuda",
+      "phone": "+1441",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 10,
+      "code": "GD",
+      "name": "Grenada",
+      "phone": "+1473",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 11,
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "phone": "+1649",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 12,
+      "code": "MS",
+      "name": "Montserrat",
+      "phone": "+1664",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 13,
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "phone": "+1670",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 14,
+      "code": "GU",
+      "name": "Guam",
+      "phone": "+1671",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 15,
+      "code": "AS",
+      "name": "American Samoa",
+      "phone": "+1684",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 16,
+      "code": "LC",
+      "name": "Saint Lucia",
+      "phone": "+1758",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 17,
+      "code": "DM",
+      "name": "Dominica",
+      "phone": "+1767",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 18,
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "phone": "+1784",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 19,
+      "code": "DO",
+      "name": "Dominican Republic",
+      "phone": "+1849",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 20,
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "phone": "+1868",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 21,
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "phone": "+1869",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 22,
+      "code": "JM",
+      "name": "Jamaica",
+      "phone": "+1876",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 23,
+      "code": "PR",
+      "name": "Puerto Rico",
+      "phone": "+1939",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 24,
+      "code": "EG",
+      "name": "Egypt",
+      "phone": "+20",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 25,
+      "code": "SS",
+      "name": "South Sudan",
+      "phone": "+211",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 26,
+      "code": "MA",
+      "name": "Morocco",
+      "phone": "+212",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 27,
+      "code": "DZ",
+      "name": "Algeria",
+      "phone": "+213",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 28,
+      "code": "TN",
+      "name": "Tunisia",
+      "phone": "+216",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 29,
+      "code": "LY",
+      "name": "Libyan Arab Jamahiriya",
+      "phone": "+218",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 30,
+      "code": "GM",
+      "name": "Gambia",
+      "phone": "+220",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 31,
+      "code": "SN",
+      "name": "Senegal",
+      "phone": "+221",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 32,
+      "code": "MR",
+      "name": "Mauritania",
+      "phone": "+222",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 33,
+      "code": "ML",
+      "name": "Mali",
+      "phone": "+223",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 34,
+      "code": "GN",
+      "name": "Guinea",
+      "phone": "+224",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 35,
+      "code": "CI",
+      "name": "Cote d Ivoire",
+      "phone": "+225",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 36,
+      "code": "BF",
+      "name": "Burkina Faso",
+      "phone": "+226",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 37,
+      "code": "NE",
+      "name": "Niger",
+      "phone": "+227",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 38,
+      "code": "TG",
+      "name": "Togo",
+      "phone": "+228",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 39,
+      "code": "BJ",
+      "name": "Benin",
+      "phone": "+229",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 40,
+      "code": "MU",
+      "name": "Mauritius",
+      "phone": "+230",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    },
+    {
+      "id": 41,
+      "code": "TR",
+      "name": "Turkey",
+      "phone": "+90",
+      "createdDate": "2023-12-22T12:34:56.789Z",
+      "lastModifiedDate": "2023-12-22T12:34:56.789Z"
+    }
+  ]
+}
